@@ -19,6 +19,7 @@ html{
     padding: 10px;
 }
 .a-header{
+    color: black;
     text-decoration: none;
     padding-left: 1.9rem;
 }
@@ -48,9 +49,6 @@ html{
     border:none;
     margin: .5rem;
 }
-.space{
-    height:29rem;
-}
 
 .search-container{
     margin-bottom: 2rem;
@@ -75,36 +73,52 @@ html{
 }
 
 .footer{
-    padding: 1rem;
-    height: 100%;
+    color: #a6a6a6;
     display: flex;
     font-size: 1.4rem;
-    background-color: #F2F2F2;
+    background-color: ##F2F2F2;
 }
 
 .left{
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    justify-content: start;
+    background-color: #F2F2F2;
     width: 100%;
     display: flex;
-    justify-content: end;
+    
 }
 .right{
-    width: 100%;
+    justify-content: end;
+    padding-left: 3rem;
+    align-items: center;
+    background-color: #F2F2F2;
+    height: 5rem;
     display: flex;
-    justify-content: start;
+    font-size: 1.5rem;
+    width: 100%;
+    
 
 }
 .footer a{
+    align-items: center;
     text-decoration: none;
-    padding: 1.5rem;
-    color: #656464;
+    padding: 1rem;
+    color: #a6a6a6;
 }
 .country{
-    padding: 2rem;
-    height: 100%;
-    display: flex;
-    font-size: 1.4rem;
+    color: #a6a6a6;
+    padding-left: 3rem;
+    align-items: center;
     background-color: #F2F2F2;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.598);
+    height: 5rem;
+    display: flex;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.598);
 }
+.space{
+    height:33rem;
+}
+
 
 
